@@ -3,6 +3,4 @@
     <li><a href="?q=bemutatkozas">Bemutatkozás</a></li>
     <li><a href="?q=kepgaleria">Képgaléria</a></li>
     <li><a href="?q=kapcsolat">Kapcsolat</a></li>
-    <li rde="presentation"><a href="?q=hirek">Hírek</a></li>
-    <li rde="presentation"><a href="?q=kijelentkezes">Kijelentkezés</a></li>
 </ul>
