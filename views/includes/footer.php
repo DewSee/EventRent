@@ -1,5 +1,5 @@
 <div id="footer">
-      Event Rent Rendezvényszervező Iroda
+      Készítette: X Y &copy; 2014
     </div>
 
   </body>

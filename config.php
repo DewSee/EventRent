@@ -3,7 +3,7 @@
 $DB_HOST = 'localhost';
 $DB_USER = 'root';
 $DB_PASS = '';
-$DB_NAME = 'eventrent';
+$DB_NAME = 'phpportal';
 
 
-$HOST = 'http://localhost/eventrent';
+$HOST = 'http://localhost/phpportal';

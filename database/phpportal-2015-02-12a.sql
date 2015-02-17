@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.13
+-- version 4.0.10deb1
 -- http://www.phpmyadmin.net
 --
--- Hoszt: 127.0.0.1
+-- Hoszt: localhost
 -- Létrehozás ideje: 2015. Feb 12. 11:40
--- Szerver verzió: 5.5.27
--- PHP verzió: 5.4.7
+-- Szerver verzió: 5.5.41-0ubuntu0.14.04.1
+-- PHP verzió: 5.5.9-1ubuntu4.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Adatbázis: `eventrent`
+-- Adatbázis: `phpportal`
 --
 
 -- --------------------------------------------------------
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `news` (
   `text` text NOT NULL,
   `date` date NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- A tábla adatainak kiíratása `news`
@@ -41,8 +41,7 @@ CREATE TABLE IF NOT EXISTS `news` (
 INSERT INTO `news` (`id`, `title`, `text`, `date`) VALUES
 (1, 'Próba hír 1', 'Lorem ipsum', '2014-11-11'),
 (2, 'Hyr 2', 'dsf fs f dgdf gfd ', '2014-11-25'),
-(3, '', '<p> A projekt nyomonkövetéséhez és mentéséhez már a GitHub-ot használjuk.\r\n\r\n<p>A projekt oldala: <a href="https://github.com/DewSee/EventRent">https://github.com/DewSee/EventRent</e>', '0000-00-00'),
-(4, 'Github', '<a href="https://github.com/DewSee/EventRent">https://github.com/DewSee/EventRent</a>', '2015-02-12');
+(3, 'GitHub használata', '<p>A projekt nyomonkövetéséhez és mentéséhez már a GitHub-ot haszmáljuk.\r\n\r\n<p>A projekt oldala: <a href="https://github.com/gazdagandras/PHPPortal">https://github.com/gazdagandras/PHPPortal</a>', '2015-02-12');
 
 -- --------------------------------------------------------
 
