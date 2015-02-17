@@ -22,5 +22,6 @@
 
     <div id="header">
       <h1 id="sitename">EventRent</h1>
+      <p class="subtitle"> Rendezvények, műsorok, exkluzív előadások </p>
       <?php include('navigation.php'); ?>
     </div>
