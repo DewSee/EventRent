@@ -1,8 +1,7 @@
 <?php include('includes/header.php'); ?>
 
 <div id="content">
-    <h2>Kezdőlap</h2>
-
+    
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">

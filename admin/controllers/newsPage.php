@@ -7,6 +7,7 @@ if (isset($_POST['newsSubmit'])) {
   
 	$newsTitle = $_POST['title'];
 	$newsText = $_POST['text'];
+        $newsLead = $_POST['lead'];
 	$newsDate = $_POST['date'];
 	
 	echo "$newsTitle $newsDate <br> $newsText"; die();
