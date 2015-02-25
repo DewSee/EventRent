@@ -16,6 +16,12 @@ body {
 #header h1#sitename {
     margin-top: 20px;  
 }
+
+#logo{
+    max-height: 250px;
+    max-width: 250px;
+}
+
 #header p#subtitle{
     margin-bottom: 20px;
 }

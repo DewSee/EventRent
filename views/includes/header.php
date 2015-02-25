@@ -21,7 +21,8 @@
   <body>
 
     <div id="header">
-      <h1 id="sitename">EventRent</h1>
+        <img  id="logo" src="imgs/ERcalendar.png">
+      <!--<h1 id="sitename">EventRent</h1>-->
       <p id="subtitle"> Rendezvények, műsorok, exkluzív előadások </p>
       <?php include('navigation.php'); ?>
     </div>

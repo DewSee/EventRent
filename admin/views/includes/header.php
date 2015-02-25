@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EventRent Admin - <?php echo $pageTitle; ?></title>
+    <title>Event Rent Admin - <?php echo $pageTitle; ?></title>
     <link rel="stylesheet" type="text/css" href="views/css/base.css">
     
     <!-- jQuery: -->
