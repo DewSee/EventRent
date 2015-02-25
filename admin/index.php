@@ -21,6 +21,10 @@ switch ($page) {
   case 'hirek':
     include('controllers/newsPage.php');
     include('views/newsPage.php');
+    break;
+case 'felhasznalok':
+    include('controllers/usersPage.php');
+    include('views/usersPage.php');
     break; 
   case 'kijelentkezes':
 	unset($_SESSION['logged']);
