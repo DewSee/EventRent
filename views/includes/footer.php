@@ -1,3 +1,4 @@
+</div><!-- #page -->
 <div id="footer">
       Event Rent Rendezvényszervező Iroda
     </div>

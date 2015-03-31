@@ -1,0 +1,35 @@
+<?php include('includes/header.php'); ?>
+
+<div id="content">
+
+<h2>Regisztráció</h2> 
+<?php if (isset($_SESSION['msg'])) : ?>
+    <p><?php print($_SESSION['msg']);
+    unset($_SESSION['msg']); ?></p> 
+<?php else : ?> 
+
+    <form name="usersForm" method="post" id="newsForm">
+        <label>Felhasználónév:</label>
+        <br>
+        <input type="text" name="uname" class="form-control input-sm">
+        <br> 
+        <label>Jelszó:</label> 
+        <br>
+        <input type="password" name="upass" class="form-control input-sm"> 
+        <br>
+        <label>Név:</label> 
+        <br>
+        <input type="text" name="name" class="form-control input-sm">
+        <br> 
+        <label>Email:</label>
+        <br>
+        <input type="text" name="email" class="form-control input-sm">
+        <br>
+        <input type="submit" name="usersSubmit" value="Regisztrálok" class="btn btn-default btn-sm"> 
+    </form> 
+<?php endif; ?>
+
+</div>
+
+<?php
+include('includes/footer.php');

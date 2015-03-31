@@ -3,9 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/T:/www/htdocs/EventRent/config.php</file>
-            <file>file:/T:/www/htdocs/EventRent/admin/views/includes/navigation.php</file>
-            <file>file:/T:/www/htdocs/EventRent/admin/index.php</file>
+            <file>file:/T:/www/htdocs/EventRent/controllers/eventsPage.php</file>
+            <file>file:/T:/www/htdocs/EventRent/views/eventsPage.php</file>
+            <file>file:/T:/www/htdocs/EventRent/admin/controllers/newsPage.php</file>
+            <file>file:/T:/www/htdocs/EventRent/admin/views/newsPage.php</file>
         </group>
     </open-files>
 </project-private>

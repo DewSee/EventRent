@@ -1,47 +1,217 @@
-/* 
-    Created on : 2014.11.25., 11:53:42
-    Author     : rych
-*/
-
 body {
     margin: 0;
-    background: url(../../imgs/background.png);
-    background-repeat: repeat;
+    background: url(../../imgs/hdwp.jpg);
+    background-size: 100% 100%;
     background-attachment: fixed;
-
 }
-
+/*FEJLÉC*/
 #header {
-    background: url(../../imgs/header.jpg);
-    background-size: cover;
-    padding: 10px 20px;
-    max-width: 1100px;
-    margin: 0 auto;
+   
+    color:white;
+    padding:5px;	
+    max-width: 1200px;   
+    clear: both;
 }
-#header h1#sitename {
-    margin-top: 20px;  
+
+#header #eventrentlogo{
+    max-height: 180px;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 10px 0px;   
 }
-#header p#subtitle{
-    margin-bottom: 20px;
+
+#logo {
+    display: table-cell;
+}
+#subtitle{
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0 0 5px 10px;
 }
 
 #header #navigation a{
     color: black;
-    background: white;
+    width: 120px;   
 }
 
-#header #navigation a:hover{
-    color: red;
-    background: white;
+/*Itt lesz a dropdown*/
+nav ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: right;
+  background: #eee;
+  border-bottom: 1px solid #fff;
+  border-radius: 3px;    
+}
+
+nav li {
+  float: left;          
+}
+
+nav #login {
+  border-right: 1px solid #ddd;
+  box-shadow: 1px 0 0 #fff;  
+}
+
+nav #login-trigger,
+nav #signup a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 #fff; 
+}
+
+nav #signup a {
+  border-radius: 0 3px 3px 0;
+}
+
+nav #login-trigger {
+  border-radius: 3px 0 0 3px;
+}
+
+nav #login-trigger:hover,
+nav #login .active,
+nav #signup a:hover {
+  background: #fff;
+}
+
+nav #login-content {
+  display: none;
+  position: absolute;
+  top: 24px;
+  right: 0;
+  z-index: 999;    
+  background: #fff;
+  background-image: linear-gradient(top, #fff, #eee);  
+  padding: 15px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  border-radius: 3px 0 3px 3px;
+}
+
+nav li #login-content {
+  right: 0;
+  width: 250px;  
+}
+
+/*--------------------*/
+
+#inputs input {
+  background: #f1f1f1;
+  color: black;
+  padding: 6px 6px;
+  margin: 0 0 5px 0;
+  width: 222px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+
+#inputs input:focus {
+  background-color: #fff;
+  border-color: #e8c291;
+  outline: none;
+  box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+/*--------------------*/
+
+#login #actions {
+  margin: 10px 0 0 0;
+}
+
+#login #submit {    
+  background-color: #d14545;
+  background-image: linear-gradient(top, #e97171, #d14545);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+  border: 1px solid #7e1515;
+  float: left;
+  height: 30px;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  font: bold 14px Arial, Helvetica;
+  color: #fff;
+}
+
+#login #submit:hover,
+#login #submit:focus {    
+  background-color: #e97171;
+  background-image: linear-gradient(top, #d14545, #e97171);
+} 
+
+#login #submit:active {   
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
+}
+
+#login #submit::-moz-focus-inner {
+  border: none;
+}
+
+#login label {
+  float: left;
+  line-height: 30px;
+  color: black;
+}
+
+#login label input {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+/*Dropdown vége*/
+
+#sidebar #navigation a:hover{
     text-decoration: underline;
 }
 
-#content {
-    padding: 10px 20px;
-    background-color: #ede8be;
-    max-width: 1100px;
-    margin: 0 auto;
 
+#header #navigation{
+    max-width: 130px;   
+}
+
+#page {
+    max-width: 1200px;
+    background: white;
+    border-top-right-radius: 1em;
+}
+
+#sidebar{
+    display: table-cell;
+    vertical-align: top;
+    background-color: lightgrey;
+    height:300px;
+    width:200px;
+    padding:5px; 
+}
+#myCarousel{
+    max-width: 800px;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+#content {
+    display: table-cell;
+    background-color: white;
+    max-width: 1000px;
+    margin-top: 0px;
+    padding:10px;
+    border-top-right-radius: 1em;
 }
 #myCarousel{
     margin: 0 auto;
@@ -67,12 +237,34 @@ body {
     font-style: italic;
 }
 
+/*Űrlapok*/
+input[type="text"]{
+    border: 5px black;
+    border-style: inset;
+}
+input[type="email"]{
+    border: 1px solid black;
+}
+input[type=text], textarea {
+    border: 1px solid black;
+}
+
+#eventdate{
+    max-width: 100px;
+}
+
+#selectmenu{
+    background-color: lightgrey;
+}
+
 #footer {
-    background-color: #7b0603;
-    color: white;
-    padding: 10px 20px;
-    max-width: 1100px;
-    margin: 0 auto;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    max-width: 1200px;
+    
 
 }
 

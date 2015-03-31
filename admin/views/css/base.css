@@ -5,50 +5,118 @@
 
 body {
     margin: 0;
-    background: url(../../../imgs/background.png);
-    background-repeat: repeat;
+    background: url(../../../imgs/hdwp.jpg);
+    background-size: 100% 100%;
     background-attachment: fixed;
+    
 }
 
 #header {
-    background: url(../../../imgs/header.jpg);
-    background-size: cover;
-    padding: 10px 20px;
-    max-width: 1100px;
-    margin: 0 auto;
+    color:white;
+    padding:5px;	
+    max-width: 1200px;   
+    clear: both;
 }
-#header h1#sitename {
-    margin: 0;
+#header #eventrentlogo{
+    max-height: 180px;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 10px 0px;   
+}
+#logo {
+    display: table-cell;
+}
+#subtitle{
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0 0 5px 10px;
 }
 
+#header #navigation a{
+    color: black;
+    width: 120px;   
+}
+
+#sidebar #navigation a:hover{
+    text-decoration: underline;
+}
+
+
+#header #navigation{
+    max-width: 130px;   
+}
+
+#page {
+    max-width: 1200px;
+    background: white;
+    border-top-right-radius: 1em;
+}
+
+#sidebar{
+    display: table-cell;
+    vertical-align: top;
+    background-color: lightgrey;
+    height:300px;
+    width:200px;
+    padding:5px; 
+}
 #content {
+    display: table-cell;   
     padding: 10px 20px;
-    background-color: #ede8be;
+    background-color: white;
     max-width: 1100px;
     margin: 0 auto;
+    border-top-right-radius: 1em;
 }
 
-.news {
-    margin-bottom: 15px;
+.events {
+    margin: 0px 20px 15px 20px;
+    padding: 0px 20px 15px 20px;
 }
-.news .title {
+.events .name {
     border-bottom: 1px solid #555;
     color: #555;
     font-weight: bold;
     font-size: 1.3em;
 }
-.news .text {
+.events .email{
+    font-weight: bold;
+}
+.events .text {
     margin: 5px 0;
 }
-.news .date {
+.events .date {
     text-align: right;
     font-style: italic;
 }
+/*Űrlapok*/
+input[type="text"]{
+    border: 5px black;
+    border-style: inset;
+}
+input[type="email"]{
+    border: 1px solid black;
+}
+input[type=text], textarea {
+    border: 1px solid black;
+}
+
+input[type=password]{
+    border: 1px solid black;
+}
+
+#selectmenu{
+    background-color: lightgrey;
+}
 
 #footer {
-    background-color: #7b0603;
-    color: white;
-    padding: 10px 20px;
-    max-width: 1100px;
-    margin: 0 auto;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    max-width: 1200px;
+    
+
 }
